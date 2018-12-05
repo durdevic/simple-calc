@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './styles/main.scss'; // import our external css file
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
